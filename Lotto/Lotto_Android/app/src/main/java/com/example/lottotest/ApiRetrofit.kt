@@ -4,7 +4,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object ApiRetrofit {
-    private const val BASE_URL = "http://192.168.0.10:3000" // Android 에뮬레이터에서 localhost 접근
+    private const val BASE_URL = "my_ip_address:3000" // Android 에뮬레이터에서 localhost 접근
 
     val apiService: ApiService by lazy {
         Retrofit.Builder()
