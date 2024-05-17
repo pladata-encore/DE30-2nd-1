@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "978123759949",
+    "firebase_url": "https://lotto-pick-9a38e-default-rtdb.firebaseio.com",
+    "project_id": "lotto-pick-9a38e",
+    "storage_bucket": "lotto-pick-9a38e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978123759949:android:f1b6731847ca8861f41704",
+        "android_client_info": {
+          "package_name": "com.example.lottotest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr1-NdVpJ0z3Zi1l90gOmrbphQh566uEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
