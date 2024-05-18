@@ -12,8 +12,9 @@
 <img src="https://github.com/pladata-encore/DE30-2nd-1/assets/102905115/a74f89c7-240b-409c-84c7-4108d42ceb7b.png" width="600"/>
 
 ### Screens
-<img src="https://github.com/kyuyounglee/playdata_1Team/assets/102905115/08b30090-d7d0-45aa-9395-f1db5639d940.png" width="200" height="400"/>
+<img src="https://github.com/pladata-encore/DE30-2nd-1/assets/102905115/4f63950c-85d2-4b98-ac7f-7134740acbf6.png" width="200" height="400"/>
 <img src="https://github.com/kyuyounglee/playdata_1Team/assets/102905115/3a8492dd-51fe-47ca-abb1-981b022cd5e9.png" width="200" height="400"/>
+<img src="https://github.com/pladata-encore/DE30-2nd-1/assets/102905115/3d10ccc4-9936-4641-b39d-993fbb774fda.png" width="200" height="400"/>
 
 ## 2. 웹 광고 클릭률 예측 AI 경진대회
 
