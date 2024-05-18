@@ -9,7 +9,7 @@
 <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
 
 ### System Architecture
-<img src="https://github.com/pladata-encore/DE30-2nd-1/assets/102905115/a74f89c7-240b-409c-84c7-4108d42ceb7b.png" width="600"/>
+<img src="https://github.com/pladata-encore/DE30-2nd-1/assets/102905115/e82fdda5-5803-42a6-a590-92ecfdb09f35.png" width="600"/>
 
 ### Screens
 <img src="https://github.com/pladata-encore/DE30-2nd-1/assets/102905115/4f63950c-85d2-4b98-ac7f-7134740acbf6.png" width="200" height="400"/>
