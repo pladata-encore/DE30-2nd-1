@@ -3,7 +3,6 @@ package com.example.lottotest
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import com.example.lottotest.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +14,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.button1.setOnClickListener {
             val intent = Intent(this, LottoActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.button2.setOnClickListener {
+            val intent = Intent(this, PreviousLottoActivity::class.java)
             startActivity(intent)
         }
     }

@@ -17,13 +17,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
+        android:textStyle="bold"
         android:layout_marginBottom="20dp"
-        android:text="다음 회차 로또 번호 예측하기" />
+        android:text="LOTTO" />
     <Button
         android:id="@+id/button1"
         android:textSize="15sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go!" />
+        android:text="다음 회차 당첨 번호 예상" />
+    <Button
+        android:id="@+id/button2"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이전 회차 당첨 번호 확인" />
 
 </LinearLayout>
