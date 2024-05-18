@@ -37,19 +37,19 @@ def get_lottery_results():
 def predict():
     if request.method == 'POST':
         try:
-            model_rnn = pickle.load(open('model_RNN.pkl', 'rb'))
+            model_rnn = pickle.load(open('app/model_RNN.pkl', 'rb'))
             rnn_prediction = model_rnn.predict()
 
-            model_mlp = pickle.load(open('model_MLP.pkl', 'rb'))
+            model_mlp = pickle.load(open('app/model_MLP.pkl', 'rb'))
             mlp_prediction = model_mlp.predict()
 
-            model_rf = pickle.load(open('model_RANDOMFOREST.pkl', 'rb'))
+            model_rf = pickle.load(open('app/model_RANDOMFOREST.pkl', 'rb'))
             rf_prediction = model_rf.predict()
 
-            model_trans = pickle.load(open('model_TRANSFORMER.pkl', 'rb'))
+            model_trans = pickle.load(open('app/model_TRANSFORMER.pkl', 'rb'))
             trans_prediction = model_trans.predict()
 
-            model_cnn = pickle.load(open('model_CNN.pkl', 'rb'))
+            model_cnn = pickle.load(open('app/model_CNN.pkl', 'rb'))
             cnn_prediction = model_cnn.predict()
 
             return jsonify({
