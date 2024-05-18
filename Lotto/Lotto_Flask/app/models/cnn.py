@@ -19,7 +19,7 @@ import pickle
 ## 학습에 필요한 컬럼만 선택 후 새로운 데이터 프레임 생성
 """
 
-lotto_df = pd.read_csv('로또번호.csv')
+lotto_df = pd.read_csv('app/models/로또번호.csv')
 lotto_df.reset_index(drop=True, inplace=True)
 lotto_df = lotto_df.drop(columns='Unnamed: 0')
 
@@ -54,7 +54,7 @@ device = "cuda" if torch.cuda.is_available() else 'cpu'
 # 데이터셋
 class LottoDataset(Dataset):
   def __init__(self):
-    lotto_df = pd.read_csv('로또번호.csv')
+    lotto_df = pd.read_csv('app/models/로또번호.csv')
     self.data = lotto_df.values
 
   def __len__(self):
